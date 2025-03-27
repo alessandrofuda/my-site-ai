@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "consulting": "Consulting",
+    "workflow": "Workflow",
+    "tech": "Tech Stack",
+    "ai": "AI Consulting",
+    "examples": "Portfolio",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Alessandro Fuda",
+    "subtitle": "Software Developer & Software Architect Consultant",
+    "experience": "Over 20 years of experience"
+  },
+  "consulting": {
+    "title": "Consulting",
+    "whoAmI": "Who am I?",
+    "whoAmIDesc": "Software developer & software architect consultant for turnkey projects. Over 20 years of experience.",
+    "target": "Who do I work with?",
+    "targetDesc": "Startups, SMEs, corporations, professionals.",
+    "what": "What do I do?",
+    "whatDesc": "Custom software, systems integration, business process re-engineering, process digitalization, proprietary software design and development, support in selecting/evaluating technology providers. I ensure software infrastructure on the Cloud.",
+    "benefits": "What are the benefits?",
+    "benefitsDesc": "No intermediaries, contracts, or subcontracts typical of modern anonymous consulting services. DIRECT collaboration and interpersonal relationship of mutual trust typical of traditional artisanal services."
+  },
+  "workflow": {
+    "title": "My Work Process",
+    "steps": {
+      "1": "Process analysis and critical issues identification",
+      "2": "Prioritized intervention areas identification",
+      "3": "Software solutions design",
+      "4": "Research/evaluation of potential products/providers",
+      "5": "Full stack software development"
+    }
+  },
+  "tech": {
+    "title": "Technical Stack",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "devops": "DevOps"
+  },
+  "ai": {
+    "title": "AI Consulting and New Business Support Tools"
+  },
+  "examples": {
+    "title": "Examples of Developed Management Software"
+  },
+  "contact": {
+    "title": "Contact",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send Message",
+    "address": "via privata Stefanardo da Vimercate, 28",
+    "city": "20128 Milan"
+  }
+}
