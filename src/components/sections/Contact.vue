@@ -1,26 +1,33 @@
 <template>
-  <section id="contact" class="section-padding bg-light">
+  <section id="contact" class="section-padding bg-light pb-0">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
           <h2 class="text-center mb-5">{{ $t('contact.title') }}</h2>
-          <form @submit.prevent="handleSubmit" class="contact-form">
-            <div class="mb-3">
-              <input type="text" v-model="form.name" class="form-control" :placeholder="$t('contact.name')" required>
-            </div>
-            <div class="mb-3">
-              <input type="email" v-model="form.email" class="form-control" :placeholder="$t('contact.email')" required>
-            </div>
-            <div class="mb-3">
-              <textarea v-model="form.message" class="form-control" rows="5" :placeholder="$t('contact.message')" required></textarea>
-            </div>
-            <div class="text-center">
-              <button type="submit" class="btn btn-primary btn-lg">{{ $t('contact.send') }}</button>
-            </div>
-          </form>
+          <hr />
           <div class="text-center mt-5">
-            <p class="mb-2">{{ $t('contact.address') }}</p>
-            <p>{{ $t('contact.city') }}</p>
+            <div class="mb-2">
+              <span class="mb-2 d-inline-block me-4"><i class="fas fa-user me-2"></i> Alessandro Fuda</span>
+              <a href="tel:+393356350117" class="d-inline-block me-4 phone"><i class="fas fa-mobile-alt me-2"></i>+39 335 6350117</a>
+              <span class="d-inline-block"><i class="fas fa-envelope me-2"></i>alessandro . fuda @ gmail . com</span>
+            </div>
+            <div class="mb-2">
+              <a href="https://www.google.com/maps/search/?api=1&query=via+privata+stefanardo+da+vimercate+28+20128+milano" target="_blank" class="mb-2 d-inline-block text-decoration-none text-dark">
+                <p class="mb-2 d-inline-block me-2">
+                  <i class="fas fa-map-marker-alt me-2"></i> {{ $t('contact.office') }}: via privata Stefanardo da Vimercate, 28
+                </p>
+                <p class="mb-2 d-inline-block">20128 {{ $t('contact.city') }}</p>
+              </a>
+            </div>
+            <p class="mb-2"><i class="fas fa-id-card me-2"></i> {{ $t('contact.piva') }} 08497200967</p>
+            <div class="social-links my-5">
+              <a href="https://www.linkedin.com/in/alessandrofuda/" target="_blank" class="me-3">
+                <i class="fab fa-linkedin fa-2x"></i>
+              </a>
+              <a href="https://github.com/alessandrofuda" target="_blank">
+                <i class="fab fa-github fa-2x"></i>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -46,15 +53,16 @@ const handleSubmit = () => {
 </script>
 
 <style lang="scss" scoped>
-.contact-form {
-  .form-control {
-    padding: 0.75rem;
-    border-radius: 0.5rem;
-    border: 1px solid #e2e8f0;
+.phone {
+  color:inherit;
+}
+.social-links {
+  a {
+    color: #1d1e1f;
+    transition: color 0.3s ease;
     
-    &:focus {
-      border-color: var(--primary-color);
-      box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+    &:hover {
+      color: #98999c;
     }
   }
 }

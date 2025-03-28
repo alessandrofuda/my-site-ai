@@ -9,7 +9,8 @@
   },
   "hero": {
     "title": "Alessandro Fuda",
-    "subtitle": "Consulente Software Developer & Software Architect",
+    "subtitle": "Consulente Sviluppatore Software",
+    "subtitle2": "Software Architect",
     "experience": "Oltre 20 anni di esperienza"
   },
   "consulting": {
@@ -47,11 +48,9 @@
   },
   "contact": {
     "title": "Contatti",
-    "name": "Nome",
-    "email": "Email",
-    "message": "Messaggio",
     "send": "Invia Messaggio",
-    "address": "via privata Stefanardo da Vimercate, 28",
-    "city": "20128 Milano"
+    "office": "Ufficio",
+    "city": "Milano",
+    "piva": "P.Iva: "
   }
 }

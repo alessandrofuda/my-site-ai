@@ -9,7 +9,8 @@
   },
   "hero": {
     "title": "Alessandro Fuda",
-    "subtitle": "Software Developer & Software Architect Consultant",
+    "subtitle": "Software Developer Consultant",
+    "subtitle2": "Software Architect",
     "experience": "Over 20 years of experience"
   },
   "consulting": {
@@ -21,7 +22,7 @@
     "what": "What do I do?",
     "whatDesc": "Custom software, systems integration, business process re-engineering, process digitalization, proprietary software design and development, support in selecting/evaluating technology providers. I ensure software infrastructure on the Cloud.",
     "benefits": "What are the benefits?",
-    "benefitsDesc": "No intermediaries, contracts, or subcontracts typical of modern anonymous consulting services. DIRECT collaboration and interpersonal relationship of mutual trust typical of traditional artisanal services."
+    "benefitsDesc": "NO intermediaries, contracts, or subcontracts typical of modern anonymous consulting services. YES: DIRECT collaboration and interpersonal relationship of mutual trust typical of traditional artisanal services."
   },
   "workflow": {
     "title": "My Work Process",
@@ -46,12 +47,10 @@
     "title": "Examples of Developed Management Software"
   },
   "contact": {
-    "title": "Contact",
-    "name": "Name",
-    "email": "Email",
-    "message": "Message",
+    "title": "Get in touch",
     "send": "Send Message",
-    "address": "via privata Stefanardo da Vimercate, 28",
-    "city": "20128 Milan"
+    "office": "Office",
+    "city": "Milan - Italy",
+    "piva": "VAT: IT"
   }
 }
