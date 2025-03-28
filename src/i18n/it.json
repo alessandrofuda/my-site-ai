@@ -16,22 +16,22 @@
   "consulting": {
     "title": "Consulenza",
     "whoAmI": "Chi sono?",
-    "whoAmIDesc": "Consulente software developer & software architect per progetti \"chiavi in mano\". Oltre 20 anni di esperienza.",
+    "whoAmIDesc": "Consulente software developer & software architect per progetti chiavi in mano.<br>Oltre 20 anni di esperienza.",
     "target": "A chi mi rivolgo?",
-    "targetDesc": "Startup, PMI, corporate, professionisti.",
+    "targetDesc": "Startup, PMI, Corporate, professionisti.",
     "what": "Cosa faccio?",
     "whatDesc": "Software custom, integrazione di sistemi, re-ingegnerizzazione dei processi di business, digitalizzazione dei processi, progettazione e realizzazione di software proprietario, supporto alla selezione/valutazione di fornitori tecnologici. Assicuro l'infrastruttura software sul Cloud.",
     "benefits": "Quali vantaggi?",
-    "benefitsDesc": "No intermediari, appalti, subappalti tipici dei moderni anonimi servizi di consulenza. Si collaborazione DIRETTA e rapporto interpersonale di reciproca fiducia tipici dei tradizionali servizi artigianali."
+    "benefitsDesc": "<b>No</b> intermediari, appalti, subappalti tipici di anonimi servizi di consulenza.<br><br><b>Si</b> collaborazione diretta e rapporto interpersonale di reciproca fiducia tipici dei tradizionali servizi artigianali."
   },
   "workflow": {
-    "title": "Le fasi del mio lavoro",
+    "title": "Le fasi di lavoro",
     "steps": {
-      "1": "Analisi dei processi ed eventuali criticità",
-      "2": "Identificazione delle aree di intervento in ordine di priorità",
-      "3": "Progettazione delle soluzioni software",
-      "4": "Ricerca/valutazione di eventuali prodotti/fornitori",
-      "5": "Sviluppo software full stack"
+      "1": "Analisi dei processi e criticità",
+      "2": "Identificazione aree di intervento in ordine di priorità",
+      "3": "Progettazione soluzioni software",
+      "4": "Ricerca e valutazione prodotti/fornitori",
+      "5": "Sviluppo software full-stack"
     }
   },
   "tech": {

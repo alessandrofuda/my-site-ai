@@ -6,25 +6,25 @@
         <div class="col-md-6">
           <div class="consulting-card">
             <h3>{{ $t('consulting.whoAmI') }}</h3>
-            <p>{{ $t('consulting.whoAmIDesc') }}</p>
+            <p v-html="$t('consulting.whoAmIDesc')"></p>
           </div>
         </div>
         <div class="col-md-6">
           <div class="consulting-card">
             <h3>{{ $t('consulting.target') }}</h3>
-            <p>{{ $t('consulting.targetDesc') }}</p>
+            <p v-html="$t('consulting.targetDesc')"></p>
           </div>
         </div>
         <div class="col-md-6">
           <div class="consulting-card">
             <h3>{{ $t('consulting.what') }}</h3>
-            <p>{{ $t('consulting.whatDesc') }}</p>
+            <p v-html="$t('consulting.whatDesc')"></p>
           </div>
         </div>
         <div class="col-md-6">
           <div class="consulting-card">
             <h3>{{ $t('consulting.benefits') }}</h3>
-            <p>{{ $t('consulting.benefitsDesc') }}</p>
+            <p v-html="$t('consulting.benefitsDesc')"></p>
           </div>
         </div>
       </div>

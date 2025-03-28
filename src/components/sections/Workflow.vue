@@ -1,5 +1,5 @@
 <template>
-  <section id="workflow" class="section-padding bg-light">
+  <section id="workflow" class="workflow-section section-padding bg-light">
     <div class="container">
       <h2 class="text-center mb-5">{{ $t('workflow.title') }}</h2>
       <div class="row justify-content-center">
@@ -17,6 +17,17 @@
 </template>
 
 <style lang="scss" scoped>
+.workflow-section{
+  background: url('../../assets/bg-notes.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+  position: relative;
+  right: 0;
+  left: 0;
+  // min-height: 100vh; /* Ensure it takes up the full viewport height */
+}
 .workflow-steps {
   .workflow-step {
     display: flex;
